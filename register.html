@@ -27,7 +27,75 @@
         </nav>
     </header>
 
-    <main></main>
+    <main>
+        <center>
+            <h1>Register Page</h1>
+            <hr>
+            <h2>Please Register to continue</h2>
+            <p>All the fields are required.</p>
+        </center>
+        <hr>
+        <form>
+            <fieldset style="margin: 0 auto; width: fit-content; border: 1px solid #1E3050;">
+                <legend>Register</legend>
+                <label for="fullName">Full Name</label>
+                <br>
+                <input type="text" name="fullName" id="fullName" required placeholder="Enter your Full Name"><br>
+                <br>
+                <label for="email">E-mail</label>
+                <br>
+                <input type="email" name="email" id="email" required placeholder="Enter your E-mail"><br>
+                <br>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" name="password" id="password" required placeholder="Enter your Password"><br>
+                <br>
+                <label for="gender">Gender</label>
+                <br>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" placeholder="Male" value="Male" required>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" placeholder="Female" value="Female" required>
+                <br>
+                <br>
+                <label for="">Hobbies</label>
+                <br>
+                <input type="checkbox" name="hobby1" id="hobby1" value="Reading">
+                <label for="hobby1">Reading</label>
+                <br>
+                <input type="checkbox" name="hobby2" id="hobby2" value="Traveling">
+                <label for="hobby2">Traveling</label>
+                <br>
+                <input type="checkbox" name="hobby3" id="hobby3" value="Cooking">
+                <label for="hobby3">Cooking</label>
+                <br>
+                <br>
+                <label for="">Country</label>
+                <br>
+                <select name="Country" id="Country" required>
+                    <option value="pakistan">pakistan</option>
+                    <option value="india">india</option>
+                    <option value="usa">usa</option>
+                </select>
+                <br>
+                <br>
+                <label for="">DOB</label>
+                <br>
+                <input type="date" name="dob" id="dob" required><br>
+                <br>
+                <label for="">Upload your Photo</label>
+                <br>
+                <input type="file" name="file" id="file" required>
+                <br>
+                <br>
+                <input type="submit" value="Register">
+                <br>
+                <br>
+                <a href="./login.html">Already a user?</a>
+            </fieldset>
+        </form>
+
+    </main>
     <hr>
 
     <footer>
